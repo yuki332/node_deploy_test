@@ -16,9 +16,15 @@
             <span>Home</span>
           </a>
         </header>
+        <ul>
+          <li class="sidebar-menu-item tab-item" data-tab="converter">
+            <span class="ri-scales-3-line"></span>
+            <span>Unit Converter</span>
+          </li>
+        </ul>
       </aside>
       <main>
-        <section id="home">
+        <section class="content-section" id="home">
           <header>
             <div class="profile-icon">
               <span class="ri-user-smile-line"></span>
@@ -31,7 +37,21 @@
             <p>Small daily records become irreplaceable memories, and efficient task management leads to fulfilling days. Please use this as a partner that supports your everyday life.</p>
           </div>
         </section>
+        <section class="content-section hidden" id="converter">
+          <header class="section-header">
+            <h2 class="section-title">Length Unit Conversion</h2>
+          </header>
+          <div class="section-body">
+            <form class="converter-form">
+              <input type="number" class="converter-input" value="1000" />
+              <select class="converter-from"></select>
+              <select class="converter-to"></select>
+              <div class="converter-result"></div>
+            </form>
+          </div>
+        </section>
       </main>
     </div>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

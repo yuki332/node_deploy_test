@@ -6,10 +6,9 @@
     "start": "node --watch ./server.js",
     "test": "npm run test -w e2e --silent",
     "dev": "node browser-sync.js",
-    "test:welcomepage": "npm run test:welcomepage -w e2e --silent",
-    "test:layout": "npm run test:layout -w e2e --silent",
-    "test:sidebar": "npm run test:sidebar -w e2e --silent",
-    "test:main": "npm run test:main -w e2e --silent"
+    "test:converterpage": "npm run test:converterpage -w e2e --silent",
+    "test:tab": "npm run test:tab -w e2e --silent",
+    "test:conversion": "npm run test:conversion -w e2e --silent"
   },
   "dependencies": {
     "express": "^5.1.0"
